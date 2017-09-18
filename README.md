@@ -1,7 +1,8 @@
 hammer-io.github.io
 ===============================================
 
-[hammer-io.github.io](https://hammer-io.github.io/) is the website for hammer-io. It's
+[hammer-io.github.io](https://hammer-io.github.io/) is the website for
+[hammer-io](https://github.com/hammer-io/hammer). It's
 based on the [Solana](https://github.com/rlue/jekyll-solana) jekyll template.
 
 ### Features
@@ -31,10 +32,6 @@ You should now have a development preview of your site at http://localhost:4000/
 
 Usage
 -----
-
-### Customizing the theme
-
-Edit the data in `_config.yml` as appropriate. You’ll also want to rewrite the `README` and replace identifying graphics (`/i/avatar.png`, `/favicon.ico`) with your own.
 
 ### Creating new posts
 
@@ -94,11 +91,9 @@ The CSS for this theme was organized following Harry Roberts’ [Inverted Triang
 License
 -------
 
-© 2017 Ryan Lue. This project is licensed under the terms of the MIT license.
+This project is licensed under the terms of the MIT license.
 
 [jk]: http://jekyllrb.com/
-[demo]: http://ryanlue.com/jekyll-solana
-[new]: https://github.com/new
 [bun]: https://github.com/bundler/bundler#installation-and-usage
 [doc-fm]: https://jekyllrb.com/docs/frontmatter/
 [ghk]: http://githooks.com/
