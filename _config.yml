@@ -2,17 +2,16 @@
 # Theme Customization #
 #######################
 
-title: J. Bravo          # appears in the header and the HTML <title> tag
-author: Johnny Bravo     # appears in an HTML <meta> tag, as well as feed.xml
+title: hammer-io         # appears in the header and the HTML <title> tag
+author: hammer-io-team   # appears in an HTML <meta> tag, as well as feed.xml
 description: >           # appears in an HTML <meta> tag, as well as feed.xml
-  Hello 911 emergency, there's a handsome guy in my house!
-  Oh wait a second, cancel that. It's only me.
+  DevOps for Javascript-based Microservices
 slogan: Showtime!        # appears in the header, alongside the title
-avatar: /i/avatar.png    # appears as portrait in the header
+avatar: /i/Viking_Hammer_Logo_1.png    # appears as portrait in the header
 banner: /i/mountains.svg # appears as background in the header
 url: http://jekyllrb.com # used by plugins to generate feed.xml and sitemap.xml
 baseurl: ''              # prepended to all absolute filepaths
-repo: https://github.com//rlue.github.io # appears in footer
+repo: https://github.com/hammer-io/hammer-io.github.io # appears in footer
 
 # Objects listed here will appear in the main nav menu.
 # Exceeding four items may cause problems on the desktop (>900px wide) layout.
@@ -24,13 +23,13 @@ nav_menu:
     url: /projects
     icon: /i/icons.svg#portfolio
   - name: GitHub
-    url: https://github.com/rlue/
+    url: https://github.com/hammer-io/hammer
     icon: /i/icons.svg#github
     outbound: true      # this key sets a link to open in a new window.
   - name: Contact
     scheme: mailto      # these keys enable email obfuscation.
-    handle: hello       # you know, to protect you from bots. (handle and domain
-    domain: github.com  # are separated in case bots crawl GitHub repos, too.)
+    handle: sdmay18-19  # you know, to protect you from bots. (handle and domain
+    domain: iastate.edu # are separated in case bots crawl GitHub repos, too.)
     icon: /i/icons.svg#email
 
 # Objects listed here will appear on the /projects.html page.

@@ -1,7 +1,8 @@
-Solana – a Wholesome, Flat, Sunshiny Jekyll Theme
+hammer-io.github.io
 ===============================================
 
-**Solana** is a theme for the [Jekyll][jk] static site generator. [View the demo][demo].
+[hammer-io.github.io](https://hammer-io.github.io/) is the website for hammer-io. It's
+based on the [Solana](https://github.com/rlue/jekyll-solana) jekyll template.
 
 ### Features
 
@@ -12,36 +13,8 @@ Solana – a Wholesome, Flat, Sunshiny Jekyll Theme
 * Obfuscates email addresses for protection against email harvesting bots
 * Comments via outbound links to Reddit
 
-![](https://raw.githubusercontent.com/rlue/i/master/solana/responsive.gif)
-
-![](https://raw.githubusercontent.com/rlue/i/master/solana/device_mockup.png)
-
 Installation
 ------------
-
-### Cloning Solana to your GitHub Pages
-
-1. Prepare a [new GitHub repository][new] named after your GitHub Pages address (`<username>.github.io`). Do not initialize with a `README`, `.gitignore`, or license.
-2. Clone this repository:
-
-        $ git clone https://github.com/rlue/jekyll-solana.git
-
-3. Associate your local copy with the GitHub Pages repo you just created:
-
-        $ cd solana
-        $ git remote rm origin
-        $ git remote add origin https://github.com/<username>/<username>.github.io
-
-4. In `_config.yml`, replace the `baseurl` site variable (`/jekyll-solana`) with an empty string (`''`):
-
-        $ sed -i "s/\/jekyll-solana/''            /" _config.yml     # on UNIX
-        $ sed -i '' "s/\/jekyll-solana/''            /" _config.yml  # on Mac
-
-5. And push:
-
-        $ git push -u origin master
-
-In just a few minutes, your site should be live at https://\<username\>.github.io/!
 
 ### Previewing the site on your machine
 
