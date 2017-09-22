@@ -1,27 +1,27 @@
 <svg width="1080" height="600" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <linearGradient id="grd0" x1="0" y1="0" x2="0" y2="25%">
-      <stop offset="0%" stop-color="#fff0e0" />
-      <stop offset="100%" stop-color="#ffe4c7" />
+      <stop offset="0%" stop-color="#eaebed" />
+      <stop offset="100%" stop-color="#dadbdd" />
     </linearGradient><linearGradient id="grd1" x1="0" y1="0" x2="0" y2="25%">
-      <stop offset="0%" stop-color="#d9d1b8" />
-      <stop offset="100%" stop-color="#ffe4c7" />
+      <stop offset="0%" stop-color="#a3bac3" />
+      <stop offset="100%" stop-color="#eaebed" />
     </linearGradient>
     <linearGradient id="grd2" x1="0" y1="0" x2="0" y2="30%">
-      <stop offset="0%" stop-color="#b3beaa" />
-      <stop offset="100%" stop-color="#d9d1b8" />
+      <stop offset="0%" stop-color="#52b1c3" />
+      <stop offset="100%" stop-color="#dadbdd" />
     </linearGradient>
     <linearGradient id="grd3" x1="0" y1="0" x2="0" y2="40%">
-      <stop offset="0%" stop-color="#8cab9b" />
-      <stop offset="100%" stop-color="#b3beaa" />
+      <stop offset="0%" stop-color="#01a7c2" />
+      <stop offset="100%" stop-color="#babbbd" />
     </linearGradient>
     <linearGradient id="grd4" x1="0" y1="0" x2="0" y2="60%">
-      <stop offset="0%" stop-color="#66988d" />
-      <stop offset="100%" stop-color="#8cab9b" />
+      <stop offset="0%" stop-color="#0188a6" />
+      <stop offset="100%" stop-color="#aaabad" />
     </linearGradient>
     <linearGradient id="grd5" x1="0" y1="0" x2="0" y2="100%">
-      <stop offset="0%" stop-color="#40867e" />
-      <stop offset="100%" stop-color="#66988d" />
+      <stop offset="0%" stop-color="#006989" />
+      <stop offset="100%" stop-color="#6a8b9d" />
     </linearGradient>
   </defs>
   <path d="M0,0 h1080 v600 h-1080 z" fill="url(#grd0)" />
