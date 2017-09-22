@@ -6,7 +6,7 @@ title: hammer-io         # appears in the header and the HTML <title> tag
 author: hammer-io-team   # appears in an HTML <meta> tag, as well as feed.xml
 description: >           # appears in an HTML <meta> tag, as well as feed.xml
   DevOps for Javascript-based Microservices
-slogan: Showtime!        # appears in the header, alongside the title
+slogan: Hit it with a hammer!        # appears in the header, alongside the title
 avatar: /i/Viking_Hammer_Logo_1.png    # appears as portrait in the header
 banner: /i/mountains.svg # appears as background in the header
 url: http://jekyllrb.com # used by plugins to generate feed.xml and sitemap.xml
@@ -16,39 +16,42 @@ repo: https://github.com/hammer-io/hammer-io.github.io # appears in footer
 # Objects listed here will appear in the main nav menu.
 # Exceeding four items may cause problems on the desktop (>900px wide) layout.
 nav_menu:
-  - name: Posts
+  - name: Home
     url: /
     icon: /i/icons.svg#posts # icons should be 24x24 px.
+  - name: Status Reports
+    url: /documents
+    icon: /i/icons.svg#posts
+  - name: Plans
+    url: /plans
+    icon: /i/icons.svg#posts
   - name: Projects
     url: /projects
     icon: /i/icons.svg#portfolio
   - name: GitHub
-    url: https://github.com/hammer-io/hammer
+    url: https://github.com/hammer-io/
     icon: /i/icons.svg#github
     outbound: true      # this key sets a link to open in a new window.
-  - name: Contact
-    scheme: mailto      # these keys enable email obfuscation.
-    handle: sdmay18-19  # you know, to protect you from bots. (handle and domain
-    domain: iastate.edu # are separated in case bots crawl GitHub repos, too.)
-    icon: /i/icons.svg#email
+  - name: Team
+    url: /team
+    icon: /i/icons.svg#portfolio
+
 
 # Objects listed here will appear on the /projects.html page.
 projects:
-  - title: Solana
-    teaser: A responsive blog template written in Sass and vanilla JavaScript.
-    url: https://github.com/rlue/solana
-    role: Creator
-    category: Frontend Dev
-  - title: Cortana
-    teaser: A talking robot. Now available on Google Play?
-    url: https://play.google.com/store/apps/details?id=com.microsoft.cortana
-    role: Core Team
-    category: NLP
-  - title: Rihanna
-    teaser: Possibly another robot. Also available on Google Play.
-    url: https://play.google.com/store/music/artist/Rihanna?id=Arcw2m2ih45qntv3fufub25tyhu
-    role: Contributor
-    category: Algorithmic Composition
+  - title: Team Website
+    teaser: A Jekyll site based on the Solana template.
+    url: https://github.com/hammer-io/hammer-io.github.io
+    category: Team Website
+
+# Objects listed here will appear on the /documents.html page.
+weekly_status_reports:
+  - title: Weekly Status Report 1
+    teaser: Weekly status report for the week of 9/11 - 9/18
+    url: /weekly_status_report_1.pdf
+    category: Weekly Status Report
+
+project_plans:
 
 #################
 # Site Settings #

@@ -13,11 +13,29 @@ layout: default
 
   {% assign pool = site.posts | where: filter, label %}
 
+{% elsif page.path == 'documents.html' %}
+  {% assign page_type = 'listing' %}
+  {% assign item_type = 'projects' %}
+  {% assign pool = site.weekly_status_reports %}
+  {% assign outbound_link_flag = ' target="_blank"' %}
+
+{% elsif page.path == 'plans.html' %}
+  {% assign page_type = 'listing' %}
+  {% assign item_type = 'projects' %}
+  {% assign pool = site.project_plan %}
+  {% assign outbound_link_flag = ' target="_blank"' %}
+
 {% elsif page.path == 'projects.html' %}
   {% assign page_type = 'listing' %}
   {% assign item_type = 'projects' %}
   {% assign pool = site.projects %}
   {% assign outbound_link_flag = ' target="_blank"' %}
+
+{% elsif page.path == 'team.html' %}
+  {% assign page_type = 'listing' %}
+  {% assign item_type = 'projects' %}
+  {% assign outbound_link_flag = ' target="_blank"' %}
+
 
 {% else %}
   {% assign page_type = 'home' %}
