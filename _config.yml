@@ -20,20 +20,20 @@ nav_menu:
     url: /
     icon: /i/icons.svg#posts # icons should be 24x24 px.
   - name: Status Reports
-    url: /documents
+    url: /documents.html
     icon: /i/icons.svg#posts
   - name: Plans
-    url: /plans
+    url: /plans.html
     icon: /i/icons.svg#posts
   - name: Projects
-    url: /projects
+    url: /projects.html
     icon: /i/icons.svg#portfolio
   - name: GitHub
     url: https://github.com/hammer-io/
     icon: /i/icons.svg#github
     outbound: true      # this key sets a link to open in a new window.
   - name: Team
-    url: /team
+    url: /team.html
     icon: /i/icons.svg#portfolio
 
 
