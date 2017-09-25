@@ -48,7 +48,11 @@ projects:
 weekly_status_reports:
   - title: Weekly Status Report 1
     teaser: Weekly status report for the week of 9/11 - 9/18
-    url: /weekly_status_report_1.pdf
+    url: /docs/weekly_status_report_01.pdf
+    category: Weekly Status Report
+  - title: Weekly Status Report 2
+    teaser: Weekly status report for the week of 9/11 - 9/18
+    url: /docs/weekly_status_report_02.pdf
     category: Weekly Status Report
 
 project_plans:
