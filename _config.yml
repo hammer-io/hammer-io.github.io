@@ -56,6 +56,11 @@ weekly_status_reports:
     category: Weekly Status Report
 
 project_plans:
+  - title: Project Plan (v1)
+    teaser: Outlines the vision and planned direction of the project
+    url: /docs/Project_Plan_v1.pdf
+    category: Project Plan
+    date: 2017-09-24
 
 #################
 # Site Settings #
