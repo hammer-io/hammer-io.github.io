@@ -39,6 +39,11 @@ nav_menu:
 
 # Objects listed here will appear on the /projects.html page.
 projects:
+  - title: hammer-cli
+    teaser: The command line interface to facilitate automation, development, and
+      operation of microservices in JavaScript using Node.js.
+    url: https://github.com/hammer-io/hammer-cli
+    category: Command Line Interface
   - title: Team Website
     teaser: A Jekyll site based on the Solana template.
     url: https://github.com/hammer-io/hammer-io.github.io
@@ -47,12 +52,16 @@ projects:
 # Objects listed here will appear on the /documents.html page.
 weekly_status_reports:
   - title: Weekly Status Report 1
-    teaser: Weekly status report for the week of 9/11 - 9/18
+    teaser: Weekly status report for the week of 9/11 - 9/17
     url: /docs/weekly_status_report_01.pdf
     category: Weekly Status Report
   - title: Weekly Status Report 2
-    teaser: Weekly status report for the week of 9/11 - 9/18
+    teaser: Weekly status report for the week of 9/18 - 9/24
     url: /docs/weekly_status_report_02.pdf
+    category: Weekly Status Report
+  - title: Weekly Status Report 3
+    teaser: Weekly status report for the week of 9/25 - 10/01
+    url: /docs/weekly_status_report_03.pdf
     category: Weekly Status Report
 
 project_plans:
