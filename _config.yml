@@ -39,10 +39,9 @@ nav_menu:
 
 # Objects listed here will appear on the /projects.html page.
 projects:
-  - title: hammer-cli
-    teaser: The command line interface to facilitate automation, development, and
-      operation of microservices in JavaScript using Node.js.
-    url: https://github.com/hammer-io/hammer-cli
+  - title: tyr
+    teaser: A CLI to generate node.js applications in an opinionated way. 
+    url: https://github.com/hammer-io/tyr
     category: Command Line Interface
   - title: Team Website
     teaser: A Jekyll site based on the Solana template.
