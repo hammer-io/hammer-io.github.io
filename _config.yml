@@ -39,11 +39,15 @@ nav_menu:
 
 # Objects listed here will appear on the /projects.html page.
 projects:
-  - title: hammer-cli
+  - title: tyr
     teaser: The command line interface to facilitate automation, development, and
       operation of microservices in JavaScript using Node.js.
-    url: https://github.com/hammer-io/hammer-cli
+    url: https://github.com/hammer-io/tyr
     category: Command Line Interface
+  - title: yggdrasil
+    teaser: Connects the nine worlds of microservices.
+    url: https://github.com/hammer-io/yggdrasil
+    category: Web Application
   - title: Team Website
     teaser: A Jekyll site based on the Solana template.
     url: https://github.com/hammer-io/hammer-io.github.io
@@ -74,6 +78,11 @@ project_plans:
     url: /docs/Project_Plan_v1.pdf
     category: Project Plan
     date: 2017-09-24
+  - title: Design Document (v1)
+    teaser: Provides technical details on the software architecture and design
+    url: /docs/Design_Document_v1.pdf
+    category: Design Document
+    date: 2017-10-15
 
 #################
 # Site Settings #
