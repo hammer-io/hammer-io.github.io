@@ -40,8 +40,7 @@ nav_menu:
 # Objects listed here will appear on the /projects.html page.
 projects:
   - title: tyr
-    teaser: The command line interface to facilitate automation, development, and
-      operation of microservices in JavaScript using Node.js.
+    teaser: A CLI to generate node.js applications in an opinionated way.
     url: https://github.com/hammer-io/tyr
     category: Command Line Interface
   - title: yggdrasil
