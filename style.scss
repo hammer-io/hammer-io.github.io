@@ -30,7 +30,6 @@
 
 .backdrop--home {
   @include tablet-portrait-up {
-    background-color: transparent;
     margin-bottom: 0;
     padding-top: 16rem;
     padding-bottom: 5rem;
@@ -39,6 +38,7 @@
 
 .backdrop--listing {
   @extend .backdrop--home;
+  background-color: transparent;
 }
 
 .header {

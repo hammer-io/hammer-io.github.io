@@ -1,20 +1,23 @@
 ---
-layout: listing
+layout: page
 title: Home
 ---
 
-{% if paginator.total_pages > 1 %}
-  <div class="paginator">
-    {% if paginator.previous_page %}
-      <a href="{{ paginator.previous_page_path }}" class="paginator__button paginator__button--newer">&laquo; Newer</a>
-    {% endif %}
+<div class="post__body team">
+    <h1 style="text-align:center;">A DevOps framework offering an opinionated approach to developing and managing microservice applications in Node.js.</h1>
 
-    {% if paginator.previous_page and paginator.next_page %}
-      <span class="paginator__divider">/</span>
-    {% endif %}
+    <h2>Problem</h2>
+    <p>There is a tendency to develop software as a collection of managed microservices. The microservice architecture involves a fair amount of complexity that may intimidate small teams with limited resources, limited time, or limited domain knowledge. Often the microservices need to be deployed to the cloud. As a result, another constraint on a small team is maintaining the system as its various components are updated independently of each other. Traditionally this is managed by a separate “DevOps” team; however, again, a small team with limited resources may not be able to dedicate people to the task. These two primary concerns—the overhead involved in setting up a microservices architecture and the resources involved in maintaining one—outline the main problem this project is addressing: that a microservices architecture may not be feasible for small teams, such as students or startups.</p>
+    <div style="float:none;clear:both;"></div>
 
-    {% if paginator.next_page %}
-      <a href="{{ paginator.next_page_path }}" class="paginator__button paginator__button--older">Older &raquo;</a>
-    {% endif %}
-  </div>
-{% endif %}
+    <h2>Solution</h2>
+    <p>We will create a framework for developing Javascript-based microservices that exhibit specific quality attributes, as well as provide an automated DevOps process for managing the development and deployment of these JavaScript microservices. The project will be built in Node.js, an open-source server framework for running JavaScript code.</p>
+
+    <h3>Purpose</h3>
+    <p>By creating a framework for Node.js microservices, teams with limited knowledge, resources, and time can quickly get started with a simple infrastructure. We also provide the tools and structure to monitor and maintain the health of their applications in development and in production. This lets more developers start making cool things faster.</p>
+
+    <h3>Goals</h3>
+    <p>The main goal of our project is to create an environment to develop JavaScript microservices as well as a DevOps process to manage and monitor its deployment.</p>
+    <p>Specifically, we hope to create an app that requires minimal configuration and setup. This means the user would download one or two different tools and then have scripts create most of the configuration files needed with account info (e.g. GitHub, Docker Hub, etc.) supplied by the developers. Easy-to-use CLI/GUI tools would be available to push, deploy, and create new microservices.</p>
+    <p>Another goal that fits into this process is creating a seamless deployment workflow. This looks like a user pushing code to a master branch and watching his or her changes reflected in the live product a short while later. Once the application is deployed, the user then tracks the status of the application through a Data Monitoring app, which can notify interested parties when a service goes offline, display metrics related to server performance, etc. In addition, the Data Monitoring tool should be able to perform load balancing between microservices.</p>
+</div>
