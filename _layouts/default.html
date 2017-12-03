@@ -12,10 +12,11 @@
   {% assign teaser = site.description %}
 {% elsif page.layout == 'listing' %}
   {% assign page_type = 'listing' %}
-  {% assign title = title | append: ' | ' | append: site.title %}
 {% else %}
   {% assign page_type = 'destination' %}
 {% endif %}
+
+{% assign title = title | append: ' | ' | append: site.title %}
 
 <!DOCTYPE html>
 <html>
@@ -32,7 +33,7 @@
   </head>
   <body>
     <div class="backdrop backdrop--{{ page_type }}">
-      <header class="header header--{{ page_type }}">
+      <header class="header header--listing">
         <a class="nameplate nameplate--{{ page_type }}" href="{{ site.baseurl }}/">
           <div class="nameplate__avatar nameplate--{{ page_type }}__avatar"></div>
           <h1 class="nameplate__title nameplate--{{ page_type }}__title">{{ site.title }}</h1>
