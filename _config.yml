@@ -121,6 +121,11 @@ project_plans:
     url: /docs/Design_Document_v2.pdf
     category: Design Document
     date: 2017-12-05
+  - title: Presentation 1
+    teaser: The slides for the presentation given at the end of SE 491
+    url: /docs/powerpoint_presentation_1.pdf
+    category: Presentation Slides
+    date: 2017-12-05
 
 #################
 # Site Settings #
