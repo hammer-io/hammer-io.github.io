@@ -116,6 +116,11 @@ project_plans:
     url: /docs/Design_Document_v1.pdf
     category: Design Document
     date: 2017-10-15
+  - title: Design Document (v2)
+    teaser: Provides technical details on the software architecture and design
+    url: /docs/Design_Document_v2.pdf
+    category: Design Document
+    date: 2017-12-05
 
 #################
 # Site Settings #
