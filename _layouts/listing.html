@@ -13,13 +13,13 @@ layout: default
 
   {% assign pool = site.posts | where: filter, label %}
 
-{% elsif page.path == 'documents.html' %}
+{% elsif page.path == 'reports.html' %}
   {% assign page_type = 'listing' %}
   {% assign item_type = 'projects' %}
   {% assign pool = site.weekly_status_reports %}
   {% assign outbound_link_flag = ' target="_blank"' %}
 
-{% elsif page.path == 'plans.html' %}
+{% elsif page.path == 'documents.html' %}
   {% assign page_type = 'listing' %}
   {% assign item_type = 'posts' %}
   {% assign pool = site.project_plans %}

@@ -20,10 +20,10 @@ nav_menu:
     url: /
     icon: /i/icons.svg#posts # icons should be 24x24 px.
   - name: Status Reports
-    url: /documents.html
+    url: /reports.html
     icon: /i/icons.svg#posts
-  - name: Plans
-    url: /plans.html
+  - name: Docs
+    url: /documents.html
     icon: /i/icons.svg#posts
   - name: Projects
     url: /projects.html
