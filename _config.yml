@@ -94,6 +94,10 @@ weekly_status_reports:
     teaser: Weekly status report for the weeks of 11/15 - 11/28
     url: /docs/weekly_status_report_10.pdf
     category: Weekly Status Report
+  - title: Weekly Status Report 11
+    teaser: Weekly status report for the weeks of 11/29 - 12/05
+    url: /docs/weekly_status_report_11.pdf
+    category: Weekly Status Report
 
 project_plans:
   - title: Project Plan (v1)
