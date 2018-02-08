@@ -57,47 +57,55 @@ weekly_status_reports:
   - title: Weekly Status Report 1
     teaser: Weekly status report for the week of 9/11 - 9/17
     url: /docs/weekly_status_report_01.pdf
-    category: Weekly Status Report
+    category: Weekly Status Report 2017
   - title: Weekly Status Report 2
     teaser: Weekly status report for the week of 9/18 - 9/24
     url: /docs/weekly_status_report_02.pdf
-    category: Weekly Status Report
+    category: Weekly Status Report 2017
   - title: Weekly Status Report 3
     teaser: Weekly status report for the week of 9/25 - 10/01
     url: /docs/weekly_status_report_03.pdf
-    category: Weekly Status Report
+    category: Weekly Status Report 2017
   - title: Weekly Status Report 4
     teaser: Weekly status report for the week of 10/02 - 10/08
     url: /docs/weekly_status_report_04.pdf
-    category: Weekly Status Report
+    category: Weekly Status Report 2017
   - title: Weekly Status Report 5
     teaser: Weekly status report for the week of 10/09 - 10/17
     url: /docs/weekly_status_report_05.pdf
-    category: Weekly Status Report
+    category: Weekly Status Report 2017
   - title: Weekly Status Report 6
     teaser: Weekly status report for the week of 10/18 - 10/24
     url: /docs/weekly_status_report_06.pdf
-    category: Weekly Status Report
+    category: Weekly Status Report 2017
   - title: Weekly Status Report 7
     teaser: Weekly status report for the week of 10/25 - 10/31
     url: /docs/weekly_status_report_07.pdf
-    category: Weekly Status Report
+    category: Weekly Status Report 2017
   - title: Weekly Status Report 8
     teaser: Weekly status report for the week of 11/01 - 11/07
     url: /docs/weekly_status_report_08.pdf
-    category: Weekly Status Report
+    category: Weekly Status Report 2017
   - title: Weekly Status Report 9
     teaser: Weekly status report for the week of 11/08 - 11/14
     url: /docs/weekly_status_report_09.pdf
-    category: Weekly Status Report
+    category: Weekly Status Report 2017
   - title: Weekly Status Report 10
     teaser: Weekly status report for the weeks of 11/15 - 11/28
     url: /docs/weekly_status_report_10.pdf
-    category: Weekly Status Report
+    category: Weekly Status Report 2017
   - title: Weekly Status Report 11
     teaser: Weekly status report for the weeks of 11/29 - 12/05
     url: /docs/weekly_status_report_11.pdf
-    category: Weekly Status Report
+    category: Weekly Status Report 2017
+  - title: Biweekly Status Report 12
+    teaser: Biweekly status report for the weeks of 01/08 - 01/23
+    url: /docs/biweekly_status_report_12.pdf
+    category: Weekly Status Report 2018
+  - title: Biweekly Status Report 13
+    teaser: Biweekly status report for the weeks of 01/24 - 02/06
+    url: /docs/biweekly_status_report_13.pdf
+    category: Weekly Status Report 2018
 
 project_plans:
   - title: Project Plan (v1)
