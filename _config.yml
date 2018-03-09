@@ -110,6 +110,10 @@ weekly_status_reports:
     teaser: Biweekly status report for the weeks of 02/07 - 02/20
     url: /docs/biweekly_status_report_14.pdf
     category: Weekly Status Report 2018
+  - title: Biweekly Status Report 15
+    teaser: Biweekly status report for the weeks of 02/21 - 03/06
+    url: /docs/biweekly_status_report_15.pdf
+    category: Weekly Status Report 2018
 
 project_plans:
   - title: Project Plan (v1)
