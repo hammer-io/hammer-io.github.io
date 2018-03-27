@@ -39,18 +39,30 @@ nav_menu:
 
 # Objects listed here will appear on the /projects.html page.
 projects:
-  - title: tyr
+  - title: Tyr
     teaser: A CLI to generate node.js applications in an opinionated way.
     url: https://github.com/hammer-io/tyr
     category: Command Line Interface
-  - title: yggdrasil
+  - title: Yggdrasil
     teaser: Connects the nine worlds of microservices.
     url: https://github.com/hammer-io/yggdrasil
     category: Web Application
+  - title: Endor
+    teaser: The backend web service for Yggdrasil.
+    url: https://github.com/hammer-io/endor
+    category: Web Application
+  - title: Koma
+    teaser: Service to accept heartbeat and data information and store it.
+    url: https://github.com/hammer-io/koma
+    category: Web Application
+  - title: Skadi
+    teaser: Utility to send heartbeat and data information from express.
+    url: https://github.com/hammer-io/skadi
+    category: Web Application Module
   - title: Team Website
     teaser: A Jekyll site based on the Solana template.
     url: https://github.com/hammer-io/hammer-io.github.io
-    category: Team Website
+    category: Web Application
 
 # Objects listed here will appear on the /documents.html page.
 weekly_status_reports:
