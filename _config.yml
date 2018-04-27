@@ -180,6 +180,11 @@ project_plans:
     url: /docs/Final_Report_Spring_2018.pdf
     category: Design Document
     date: 2018-04-23
+  - title: Presentation 2
+    teaser: The slides for the presentation given at the end of SE 491
+    url: /docs/powerpoint_presentation_2.pdf
+    category: Presentation Slides
+    date: 2018-4-27
 
 #################
 # Site Settings #
